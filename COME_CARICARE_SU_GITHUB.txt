@@ -1,0 +1,27 @@
+VERSIONE GITHUB PRONTA
+
+1. Estrai questo ZIP.
+2. Apri la cartella estratta.
+3. Dentro devi vedere subito:
+   - app.py
+   - requirements.txt
+   - Dockerfile
+   - render.yaml
+   - cartella templates
+   - cartella static
+
+4. Su GitHub crea un repository nuovo.
+5. Clicca Add file > Upload files.
+6. Trascina TUTTO il contenuto della cartella estratta dentro GitHub.
+   NON caricare lo ZIP. Devi caricare i file dentro.
+7. Fai Commit changes.
+
+DOPO GITHUB
+1. Vai su Render
+2. New > Web Service
+3. Collega il repository
+4. Render leggerà automaticamente render.yaml
+5. Avvia il deploy
+
+LOGIN INIZIALE
+admin / admin123!

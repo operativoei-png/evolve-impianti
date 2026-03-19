@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: evolve-impianti-cloud
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEFAULT_ADMIN_PASSWORD
+        value: admin123!
